@@ -1,0 +1,10 @@
+body{
+	
+background-image: url(../../img/worcester.jpg);
+background-repeat: no-repeat;
+
+}
+#loadtxt{
+/*	margin-left:-40%;*/
+	text-align:center;
+}
