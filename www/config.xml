@@ -77,7 +77,7 @@
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
  
     <!-- Define app icon for each platform. -->
-    <icon src="www/res/icon/icon.png"/>
+    <icon src="www/img/icon.png"/>
 
 
     <!-- Define app splash screen for each platform. -->
