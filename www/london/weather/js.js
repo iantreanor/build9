@@ -1,5 +1,5 @@
 var url = "http://api.openweathermap.org/data/2.5/weather?q=,London,uk";
-var apiKey = "bcaf01974b1b37642fb44314d5c25f90"; // Replace "APIKEY" with your own API key; otherwise, your HTTP request will not work
+var apiKey = "bcaf01974b1b37642fb44314d5c25f90"; 
 var httpRequest;
 var loadtxt = document.getElementById("loadtxt");
 
