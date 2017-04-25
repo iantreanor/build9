@@ -1,6 +1,7 @@
-body {
-background-repeat: no-repeat;
+body  {
+    background-image: url("../img/worcester.png");
 }
+
 #loadtxt{
 /*	margin-left:-40%;*/
 	text-align:center;
