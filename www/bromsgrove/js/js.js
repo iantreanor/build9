@@ -22,7 +22,7 @@ if (navigator.geolocation) { //Checks if browser supports geolocation
      var request = {
        origin: coords,
        destination: 'B60 3DH',
-       travelMode: google.maps.DirectionsTravelMode.DRIVING
+       travelMode: google.maps.DirectionsTravelMode.WALKING
      };
 
      directionsService.route(request, function (response, status) {

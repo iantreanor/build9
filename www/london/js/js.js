@@ -22,7 +22,7 @@ if (navigator.geolocation) { //Checks if browser supports geolocation
      var request = {
        origin: coords,
        destination: 'N1 6HD',
-       travelMode: google.maps.DirectionsTravelMode.DRIVING
+       travelMode: google.maps.DirectionsTravelMode.WALKING
      };
 
      directionsService.route(request, function (response, status) {
