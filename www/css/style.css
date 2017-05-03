@@ -30,3 +30,21 @@ background-repeat: no-repeat;
 #festivaltitle {
 	text-align: center;
 }
+
+.star {
+   height: 2em;
+   width: 2em;
+   border: .1em solid black;
+   border-radius: 1.1em;
+   display: inline-block;
+   margin: 0;
+   padding: .1em;
+  }
+
+  .starred {
+   background-color: yellow;
+  }
+
+  .starred-chosen {
+   background-color: green;
+  }
