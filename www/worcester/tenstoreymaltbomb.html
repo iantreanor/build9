@@ -9,6 +9,9 @@ Beer festival app
 	<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../Jquery-simple-rating-system-with-small-stars_files/jquery.js"></script>
+	<link href="../Jquery-simple-rating-system-with-small-stars_files/rating_simple.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../Jquery-simple-rating-system-with-small-stars_files/rating_simple.js"></script>
 </head>
 <body>
 
@@ -23,11 +26,24 @@ Beer festival app
 <h3>Name: Ten Storey Malt Bomb</h3>
 <h3>Strength: 4.00%</h3>
 <h3>Type: Strong Ale</h3>
+<h3>Your Rating</h3><input name="my_input" value="3" id="rating_simple" type="hidden">
+<br>
 
 <img src="img/tenstoreymaltbomb.png" align="left">
 <br><br><br>
 <p>Modern take on an traditional 80/- using ten different malts.
 </p>
+
+<script language="javascript" type="text/javascript">
+$(function() {
+$("#rating_simple").webwidget_rating_simple({
+rating_star_length: '5',
+rating_initial_value: '',
+rating_function_name: '',
+directory: '../Jquery-simple-rating-system-with-small-stars_files/'
+});
+});
+</script>
 
 <div data-role="footer" data-position="fixed">
 <div data-role="navbar">
