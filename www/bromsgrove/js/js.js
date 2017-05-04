@@ -1,5 +1,5 @@
 if (navigator.geolocation) { //Checks if browser supports geolocation
-   navigator.geolocation.getCurrentPosition(function (position) {                                                              //This gets the
+   navigator.geolocation.getCurrentPosition(function (position) { //This gets the
      var latitude = position.coords.latitude;                    //users current
      var longitude = position.coords.longitude;                 //location
      var coords = new google.maps.LatLng(latitude, longitude); //Creates variable for map coordinates

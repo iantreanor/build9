@@ -4,7 +4,7 @@
             var settings = $.extend({
                 minwidth: 40,
                 maxwidth: 250,
-                animate: true,
+                animate: false,
                 speed: 1000,
                 initialdisplay: 'compact',
                 facebook: true,
