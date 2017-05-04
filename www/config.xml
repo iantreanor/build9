@@ -104,10 +104,7 @@
         <icon   src="www/res/icon/ios/icon-small@2x.png"                platform="ios" width="58"   height="58" />
         <icon   src="www/res/icon/ios/icon-small@3x.png"                platform="ios" width="87"   height="87" />
     </platform>
-
-			
-			
-		
+	
 	
 	<!-- Define app splash screen for each platform. -->
 	<splash src="www/res/splash/splash.png" />
